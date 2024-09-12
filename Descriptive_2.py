@@ -2,9 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the datasets
-df1 = pd.read_csv('dataset1.csv')  # Replace with the correct path to dataset1.csv
-df2 = pd.read_csv('dataset2.csv')  # Replace with the correct path to dataset2.csv
-df3 = pd.read_csv('dataset3.csv')  # Replace with the correct path to dataset3.csv
+df1 = pd.read_csv('dataset1.csv')  
+df2 = pd.read_csv('dataset2.csv')  
+df3 = pd.read_csv('dataset3.csv')  
 
 # Calculate the mode for key variables in each dataset
 # For df1 (gender)
@@ -63,4 +63,3 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
-
